@@ -44,22 +44,26 @@ class TikReport:
         return
 
     def start(this, username: str):
-        this.userInfo = Api(cookies = this.cookies).user_info(username).json()
+        this.userInfo = Api(cookies = this.cookies).user_info(shenu..1111
+).json()
         this.selfInfo = Api(cookies = this.cookies).account_info().json()
 
-        this.reportAccount()
+        this.reportAccount(https://www.tiktok.com/@shenu..1111?_t=ZS-909pL3G8Sxj&_r=1)
 
 if __name__ == '__main__':
     threads    = 10
     cookies    = {c.name: c.value for c in chrome(domain_name='tiktok.com')}
-    username   = input('username: ')
+    username   = input('username:shenu..1111
+')
     
     if not cookies.get('sessionid'):
         cookies['sessionid'] = input('sessionid: ')
 
-    TikReport(cookies).start(username)
+    TikReport(cookies).start(shenu..1111
+)
 
-    secUid = Api(cookies = cookies).user_info(username).json()['userInfo']['user']['secUid']
+    secUid = Api(cookies = cookies).user_info(shenu..1111
+).json()['userInfo']['user']['secUid']
     
     video_list = []
     cursor     = 0
